@@ -4,6 +4,7 @@
   "description": "Application de montée en compétences sur Electron JS",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "test"
   },
   "repository": {
