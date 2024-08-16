@@ -1,0 +1,25 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>App Electron Tuto</title>
+</head>
+
+<body>
+  <h1>App Electron Tuto</h1>
+  <div id="versions">
+    <Ul>
+      <li>Version de NodeJS = <span id="node-version"></span><br /></li>
+      <li>Version de Chromium = <span id="chrome-version"></span><br /></li>
+      <li>Version de Electron = <span id="electron-version"></span><br /></li>
+    </Ul>
+  </div>
+  <!-- Vous pouvez également demander que d’autres fichiers s’exécutent dans ce processus -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
