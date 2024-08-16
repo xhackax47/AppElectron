@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xhackax47/AppElectron/issues"
   },
-  "homepage": "https://github.com/xhackax47/AppElectron#readme"
+  "homepage": "https://github.com/xhackax47/AppElectron#readme",
+  "devDependencies": {
+    "electron": "^31.4.0"
+  }
 }
