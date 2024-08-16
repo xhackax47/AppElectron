@@ -1,0 +1,19 @@
+{
+  "name": "app-electron-hacka47",
+  "version": "1.0.0",
+  "description": "Application de montée en compétences sur Electron JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhackax47/AppElectron.git"
+  },
+  "author": "Hacka47",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhackax47/AppElectron/issues"
+  },
+  "homepage": "https://github.com/xhackax47/AppElectron#readme"
+}
